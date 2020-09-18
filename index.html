@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-n-Code</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+        <div class="toggle-container">
+        <input type="checkbox" id="toggle" name="toggle" /> 
+        <label for="toggle">Go Dark</label>
+        </div>          
+        <h1>TechnCode</h1> 
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="1063x408_coloredCoral.jpg" style="width: 100%"> 
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="1063x408_jellyfish.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="1063x408_otherCoral.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="1063x408_pink_coral.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="1063x408_turtle.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="1063x408_blueFish.jpg" style="width: 100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"><</a>
+        <a class="next" onclick="plusSlides(1)">></a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="1063x408_coloredCoral.jpg" style="width:100%" onclick="currentSlide(1)" alt="Photo by David Clode on Unsplash">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="1063x408_jellyfish.jpg" style="width:100%" onclick="currentSlide(2)" alt="Photo by Francis Taylor on Unsplash">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="1063x408_otherCoral.jpg"      
+                style="width:100%" onclick="currentSlide(3)" alt="Photo by SGR on Unsplash">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="1063x408_pink_coral.jpg"
+                style="width:100%" onclick="currentSlide(4)" alt="Photo by LI FEI on Unsplash">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="1063x408_turtle.jpg" 
+                style="width:100%" onclick="currentSlide(5)" alt="Photo by Giachen's World on Unsplash">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="1063x408_blueFish.jpg"
+                style="width:100%" onclick="currentSlide(6)" alt="Photo by T Motivv on Unsplash">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
